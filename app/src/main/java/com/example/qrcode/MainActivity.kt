@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         if (result != null) {
             if (result.contents == null) {
                 Toast.makeText(this, "Cancelled", Toast.LENGTH_LONG).show()
+                textView.text = ""
             } else {
                 val test = result.contents
                 textView.text = test
