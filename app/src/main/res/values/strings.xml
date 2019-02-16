@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">QRcode</string>
+    <string name="scan">스캔</string>
+    <string name="test">asdf</string>
 </resources>
